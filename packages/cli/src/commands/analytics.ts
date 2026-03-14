@@ -13,7 +13,7 @@ interface AnalyticsData {
   readonly statusDistribution: Record<string, number>;
 }
 
-function computeAnalytics(
+export function computeAnalytics(
   bookId: string,
   chapters: ReadonlyArray<{
     readonly number: number;

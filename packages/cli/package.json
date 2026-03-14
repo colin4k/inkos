@@ -7,7 +7,8 @@
     "inkos": "dist/index.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "!dist/__tests__"
   ],
   "license": "MIT",
   "repository": {
